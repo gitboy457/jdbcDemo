@@ -20,11 +20,11 @@ public class MainApplication {
 	public static void main(String[] args) {
 		
 		Customer customer= new Customer();
-		customer.setCustId("kiran123");
+		customer.setCustId("dhananjay123");
 		customer.setCreateDate(new Date(new java.util.Date().getTime()));
-		customer.setCust_name(null);
-		customer.setEmail("kiran123@gmail.com");
-		customer.setMobile("8765432345");
+		customer.setCust_name("dhananjay");
+		customer.setEmail("dhananjay123@gmail.com");
+		customer.setMobile("8765432334");
 				
 	if (customerRepository.saveCustomer(customer))	{
 		System.out.println("customer saved successfully");
